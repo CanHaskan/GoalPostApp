@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		1E417AF92EC358AB00AA106F /* GoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E417AF82EC358AB00AA106F /* GoalVC.swift */; };
 		1E417B112EC384B200AA106F /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E417B102EC384B200AA106F /* GoalCell.swift */; };
+		1E417B132EC4B61400AA106F /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E417B122EC4B61400AA106F /* GoalType.swift */; };
+		1E417B152EC4BBFD00AA106F /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E417B142EC4BBFD00AA106F /* CreateGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E417AF12EC358AB00AA106F /* GoalPostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E417AF82EC358AB00AA106F /* GoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalVC.swift; sourceTree = "<group>"; };
 		1E417B102EC384B200AA106F /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		1E417B122EC4B61400AA106F /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		1E417B142EC4BBFD00AA106F /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -73,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				1E417AF82EC358AB00AA106F /* GoalVC.swift */,
+				1E417B142EC4BBFD00AA106F /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 		1E417B0E2EC358E000AA106F /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				1E417B122EC4B61400AA106F /* GoalType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -174,6 +180,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E417AF92EC358AB00AA106F /* GoalVC.swift in Sources */,
+				1E417B132EC4B61400AA106F /* GoalType.swift in Sources */,
+				1E417B152EC4BBFD00AA106F /* CreateGoalVC.swift in Sources */,
 				1E417B112EC384B200AA106F /* GoalCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
