@@ -20,12 +20,10 @@ class GoalsVC: UIViewController {
     }
     
     @IBAction func addGoalBtnWasPressed(_ sender: Any) {
-        
+        guard let createGoalVC = storyboard?.instantiateViewController(withIdentifier: "CreateGoalVC") else {return}
+        presentDetail(createGoalVC)
     }
-
-
 }
-
 
 extension GoalsVC: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {

@@ -11,7 +11,7 @@
         <!--GoalsVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="GoalsVC" customModule="GoalPostApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GoalsVC" id="BYZ-38-t0r" customClass="GoalsVC" customModule="GoalPostApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,6 @@
                                         <buttonConfiguration key="configuration" style="plain" image="addGoal"/>
                                         <connections>
                                             <action selector="addGoalBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6SH-8W-9EA"/>
-                                            <segue destination="P51-36-sFR" kind="presentation" id="7F5-pT-jur"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -181,9 +180,9 @@
         <!--Create GoalVC-->
         <scene sceneID="FNA-mY-54y">
             <objects>
-                <viewController id="P51-36-sFR" customClass="CreateGoalVC" customModule="GoalPostApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateGoalVC" modalPresentationStyle="fullScreen" id="P51-36-sFR" customClass="CreateGoalVC" customModule="GoalPostApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9VB-fq-DjN">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PJN-Wz-YW2">
@@ -282,10 +281,10 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Yp-Gi-eAO">
-                                <rect key="frame" x="0.0" y="693" width="393" height="100"/>
+                                <rect key="frame" x="0.0" y="782" width="393" height="70"/>
                                 <color key="backgroundColor" red="0.96470588239999999" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="4W7-lz-Sgb"/>
+                                    <constraint firstAttribute="height" constant="70" id="4W7-lz-Sgb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -315,7 +314,7 @@
                     <connections>
                         <outlet property="goalTextView" destination="G8v-UY-Kha" id="Ujr-mC-1dO"/>
                         <outlet property="longTermBtn" destination="be7-3L-K16" id="nvi-tL-oji"/>
-                        <outlet property="nextBt" destination="1Yp-Gi-eAO" id="YCn-Iu-g1h"/>
+                        <outlet property="nextBtn" destination="1Yp-Gi-eAO" id="ENo-tP-w5H"/>
                         <outlet property="shorTermBtn" destination="lgq-we-oKT" id="nY5-KL-vtw"/>
                     </connections>
                 </viewController>
