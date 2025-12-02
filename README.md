@@ -3,11 +3,12 @@
 A simple and clean iOS app built to help users create goals, track their
 progress, and stay motivated.
 
-GoalPost allows you to: - Create short-term or long-term goals\
-- Set a required completion value\
-- Increment progress\
-- Mark goals as complete\
-- Delete goals with a smooth **UNDO** snackbar\
+GoalPost allows you to: 
+- Create short-term or long-term goals
+- Set a required completion value
+- Increment progress
+- Mark goals as complete
+- Delete goals with a smooth **UNDO** snackbar
 - Store everything persistently using **Core Data**
 
 ## 🚀 Features
@@ -19,13 +20,13 @@ complete it.
 
 ### ➕ Increase Progress
 
-Swipe left and tap **ADD** to increment progress.\
+Swipe left and tap **ADD** to increment progress.
 When progress reaches its completion value, the app shows a **Goal
 Complete** banner.
 
 ### 🗑 Delete With Undo
 
-Swipe left and tap **DELETE**.\
+Swipe left and tap **DELETE**.
 A red snackbar appears at the bottom, allowing you to undo for a few
 seconds.
 
