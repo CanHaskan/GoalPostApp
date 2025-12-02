@@ -38,25 +38,25 @@ restarts.
 ## 📸 Screenshots
 
 ### Home Screen
-![Home](GoalsVC.png)
+![Home](assets/screenshots/GoalsVC.png)
 
 ### Create Goal – Step 1
 ![Create Goal](assets/screenshots/CreateGoalVC.png)
 
 ### Create Goal – Step 2 (Set Points)
-![Set Points](FinishGoalVC.png)
+![Set Points](assets/screenshots/FinishGoalVC.png)
 
 ### Goal List After Creating
-![List](GoalsVCAfterCreatingGoal.png)
+![List](assets/screenshots/GoalsVCAfterCreatingGoal.png)
 
 ### Swipe Actions
-![Swipe](SwipeActions.png)
+![Swipe](assets/screenshots/SwipeActions.png)
 
 ### Goal Completed Banner
-![Completed](GoalCompleted.png)
+![Completed](assets/screenshots/GoalCompleted.png)
 
 ### Undo Delete Snackbar
-![Undo](UndoSnackbar.png)
+![Undo](assets/screenshots/UndoSnackbar.png)
 
 ## 🛠 Tech Stack
 
