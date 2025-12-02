@@ -41,7 +41,7 @@ restarts.
 ![Home](GoalsVC.png)
 
 ### Create Goal – Step 1
-![Create Goal](CreateGoalVC.png)
+![Create Goal](assets/screenshots/CreateGoalVC.png)
 
 ### Create Goal – Step 2 (Set Points)
 ![Set Points](FinishGoalVC.png)
