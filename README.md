@@ -37,23 +37,26 @@ restarts.
 
 ## 📸 Screenshots
 
-  --------------------------------------------------------------------------------------
-  Welcoming Screen                  Create Goal                   Select Type
-  ---------------------------- ----------------------------- ---------------------------
-  ![Empty](assets/screenshots/GoalsVC)   ![Create](FinishGoalVC.png)   ![Type](CreateGoalVC.png)
+### Home Screen
+![Home](GoalsVC.png)
 
-  --------------------------------------------------------------------------------------
+### Create Goal – Step 1
+![Create Goal](CreateGoalVC.png)
 
-  --------------------------------------------------------------------------------
-  Goals List              Swipe Actions                Undo Snackbar
-  ----------------------- ---------------------------- ---------------------------
-  ![Goals](GoalsVC.png)   ![Swipe](SwipeActions.png)   ![Undo](UndoSnackbar.png)
+### Create Goal – Step 2 (Set Points)
+![Set Points](FinishGoalVC.png)
 
-  --------------------------------------------------------------------------------
+### Goal List After Creating
+![List](GoalsVCAfterCreatingGoal.png)
 
-  Goal Complete
-  --------------------------------
-  ![Complete](GoalCompleted.png)
+### Swipe Actions
+![Swipe](SwipeActions.png)
+
+### Goal Completed Banner
+![Completed](GoalCompleted.png)
+
+### Undo Delete Snackbar
+![Undo](UndoSnackbar.png)
 
 ## 🛠 Tech Stack
 
