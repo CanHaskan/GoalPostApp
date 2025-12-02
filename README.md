@@ -38,9 +38,9 @@ restarts.
 ## 📸 Screenshots
 
   --------------------------------------------------------------------------------------
-  Empty State                  Create Goal                   Select Type
+  Welcoming Screen                  Create Goal                   Select Type
   ---------------------------- ----------------------------- ---------------------------
-  ![Empty](UndoSnackbar.png)   ![Create](FinishGoalVC.png)   ![Type](CreateGoalVC.png)
+  ![Empty](assets/screenshots/GoalsVC)   ![Create](FinishGoalVC.png)   ![Type](CreateGoalVC.png)
 
   --------------------------------------------------------------------------------------
 
